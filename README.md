@@ -16,29 +16,29 @@ The included 650mAh 9V battery lasts for only 4.5 hours. I probably have somethi
 
 ## Power Consumption Calcs:
 1. **Calculate the average current draw**:
-   - Current (I) = Capacity (mAh) / Time (hours)
-   - \( I = \frac{650 \text{mAh}}{4.5 \text{hours}} \approx 144.44 \text{mA} \)
+   - $ \text{Current} (I) = \frac{\text{Capacity (mAh)}}{\text{Time (hours)}} $
+   - $ I = \frac{650 \text{mAh}}{4.5 \text{hours}} \approx 144.44 \text{mA} $
 
 2. **Calculate the power consumption in watts**:
-   - Power (P) = Voltage (V) × Current (I)
-   - \( P = 9 \text{V} \times 144.44 \text{mA} \)
+   - $ Power (P) = Voltage (V) × Current (I) $
+   - $ P = 9 \text{V} \times 144.44 \text{mA} $
    - Converting milliamps to amps (1mA = 0.001A):
-   - \( P = 9 \text{V} \times 0.14444 \text{A} \approx 1.3 \text{W} \)
+   - $ P = 9 \text{V} \times 0.14444 \text{A} \approx 1.3 \text{W} $
 
 3. **Calculate daily energy consumption**:
-   - Daily energy consumption = Power (W) × Time (hours)
-   - \( \text{Daily energy consumption} = 1.3 \text{W} \times 24 \text{hours} = 31.2 \text{Wh} \)
+   - $ \text{Daily energy consumption} = Power (W) × Time (hours) $
+   - $ \text{Daily energy consumption} = 1.3 \text{W} \times 24 \text{hours} = 31.2 \text{Wh} $
    - Convert watt-hours to kilowatt-hours (1 kWh = 1000 Wh)
-   - \( \text{Daily energy consumption} = \frac{31.2 \text{Wh}}{1000} = 0.0312 \text{kWh} \)
+   - $ \text{Daily energy consumption} = \frac{31.2 \text{Wh}}{1000} = 0.0312 \text{kWh} $
 
 4. **Calculate monthly energy consumption**:
    - Assume there are 30 days in a month.
    - Monthly energy consumption = Daily energy consumption × Number of days in a month
-   - \( \text{Monthly energy consumption} = 0.0312 \text{kWh/day} \times 30 \text{days} = 0.936 \text{kWh} \)
+   - $ \text{Monthly energy consumption} = 0.0312 \text{kWh/day} \times 30 \text{days} = 0.936 \text{kWh} $
 
 5. **Calculate the monthly cost**:
    - Cost = Monthly energy consumption × Cost per kWh
-   - \( \text{Cost} = 0.936 \text{kWh} \times \$0.192/\text{kWh} = \$0.179712 \)
+   - $ \text{Cost} = 0.936 \text{kWh} \times \$0.192/\text{kWh} = \$0.179712 $
 
 ## Summary:
 
