@@ -1,5 +1,4 @@
 #include <avr/sleep.h>
-#include <avr/wdt.h>
 #include <Wire.h>
 #include <I2C_RTC.h>
 
@@ -23,12 +22,6 @@ volatile unsigned long last_recorded_seconds;
 volatile bool check_pressed = false;
 volatile bool skip_pressed = false;
 uint8_t rgb_values[15][3];
-
-// Watchdog ISR routine
-ISR(WDT_vect) {
-  wdt_disable();  // disable watchdog
-                  // Return from ISR
-}
 
 void checkInterrupt() {
   check_pressed = true;
